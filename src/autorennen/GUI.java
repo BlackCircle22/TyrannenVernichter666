@@ -256,7 +256,11 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_bremsen2ActionPerformed
 
     private void beschleunigen1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_beschleunigen1ActionPerformed
-        // TODO add your handling code here:
+       System.out.println("beschleundigen 1");
+      
+       jProgressBar1.setForeground(Color.BLACK);
+       jProgressBar1.setBackground(Color.RED);
+       jProgressBar1.setValue(20);
     }//GEN-LAST:event_beschleunigen1ActionPerformed
 
     private void bremsen1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bremsen1ActionPerformed
