@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="beschleunigen1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="tankUeberschrift1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                      <Component id="tankAnzeige1" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="bremsen1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bereit1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ereignisUeberschrift1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="ereignisAnzeige1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="speedUeberschrift1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                              <Component id="speedAnzeige1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jProgressBar1" pref="0" max="32767" attributes="0"/>
+                  <Component id="spieler1Ueberschrift" pref="96" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="rundeUeberschrift" min="-2" max="-2" attributes="0"/>
+                  <Component id="rundeAnzeige" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="spieler2Ueberschrift" min="-2" max="-2" attributes="0"/>
+                  <Component id="jProgressBar2" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="tankUeberschrift2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                      <Component id="tankAnzeige2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="speedUeberschrift2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                      <Component id="speedAnzeige2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="beschleunigen2" max="32767" attributes="0"/>
+                  <Component id="bereit2" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="ereignisUeberschrift2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                      <Component id="ereignisAnzeige2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="bremsen2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jProgressBar2" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tankUeberschrift2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tankUeberschrift1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tankAnzeige2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tankAnzeige1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="speedUeberschrift2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="speedUeberschrift1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="speedAnzeige2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="speedAnzeige1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ereignisUeberschrift1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ereignisUeberschrift2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ereignisAnzeige1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ereignisAnzeige2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="309" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bereit1" min="-2" max="-2" attributes="0"/>
+                          <Component id="bereit2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="beschleunigen1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="beschleunigen2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bremsen1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bremsen2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jProgressBar1" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="spieler1Ueberschrift" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="spieler2Ueberschrift" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="263" max="-2" attributes="0"/>
+              <Component id="rundeUeberschrift" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="rundeAnzeige" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="beschleunigen1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Beschleunigen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="beschleunigen1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bremsen1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bremsen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bremsen1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="beschleunigen2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Beschleunigen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="beschleunigen2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bremsen2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bremsen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bremsen2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Checkbox" name="bereit1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Bereit"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Checkbox" name="bereit2">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Bereit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ereignisUeberschrift1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ereignis:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ereignisUeberschrift2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ereignis:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedUeberschrift2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedUeberschrift1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tankUeberschrift2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tank:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tankUeberschrift1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tank:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tankAnzeige1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+      <Events>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="tankAnzeige1AncestorAdded"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tankAnzeige2">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedAnzeige2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedAnzeige1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ereignisAnzeige1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ereignisAnzeige2">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spieler1Ueberschrift">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spieler 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spieler2Ueberschrift">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spieler 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rundeUeberschrift">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Runde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rundeAnzeige">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
