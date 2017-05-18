@@ -10,5 +10,5 @@ package javaapplication1;
  * @author bbsuser
  */
 public class NewClass {
-    
+    shfipaserhipfhqwerogf;
 }
