@@ -13,6 +13,10 @@ public class Auto {
     }
 
     public void beschleunigen() {
+        System.out.println("lo");
+        System.out.println("l2o");
+           System.out.println("l44o");   
+           System.out.println("l33o");
     }
 
     public void bremsen() {
