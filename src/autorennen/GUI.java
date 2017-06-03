@@ -33,8 +33,10 @@ public class GUI extends javax.swing.JFrame {
 
         jPanelFahrbahn1 = new javax.swing.JPanel();
         jLabelAutoSpieler1 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jPanelFahrbahn2 = new javax.swing.JPanel();
         jLabelAutoSpieler2 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jButtonBremsenSpieler1 = new javax.swing.JButton();
         jButtonBremsenSpieler2 = new javax.swing.JButton();
         jButtonGasGebenSpieler1 = new javax.swing.JButton();
@@ -43,56 +45,84 @@ public class GUI extends javax.swing.JFrame {
         jButtonWeiterSpieler2 = new javax.swing.JButton();
         jProgressBarSpeedSpieler2 = new javax.swing.JProgressBar();
         jTextFieldNextStepSpieler2 = new javax.swing.JTextField();
+        jProgressBarTankSpieler2 = new javax.swing.JProgressBar();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jProgressBarTankSpieler1 = new javax.swing.JProgressBar();
+        jProgressBarSpeedSpieler1 = new javax.swing.JProgressBar();
+        jLabel4 = new javax.swing.JLabel();
+        jTextFieldNextStepSpieler1 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanelFahrbahn1.setBackground(new java.awt.Color(0, 204, 0));
+        jPanelFahrbahn1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabelAutoSpieler1.setBackground(new java.awt.Color(153, 0, 0));
-        jLabelAutoSpieler1.setForeground(new java.awt.Color(153, 0, 0));
-        jLabelAutoSpieler1.setText("jLabel1");
+        jLabelAutoSpieler1.setForeground(new java.awt.Color(51, 153, 0));
+        jLabelAutoSpieler1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelAutoSpieler1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/auto_spieler2.png"))); // NOI18N
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rennstrecke_spieler1.JPG"))); // NOI18N
 
         javax.swing.GroupLayout jPanelFahrbahn1Layout = new javax.swing.GroupLayout(jPanelFahrbahn1);
         jPanelFahrbahn1.setLayout(jPanelFahrbahn1Layout);
         jPanelFahrbahn1Layout.setHorizontalGroup(
             jPanelFahrbahn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelFahrbahn1Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(jLabelAutoSpieler1)
-                .addContainerGap(25, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelFahrbahn1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabelAutoSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(26, 26, 26))
+            .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 162, Short.MAX_VALUE)
         );
         jPanelFahrbahn1Layout.setVerticalGroup(
             jPanelFahrbahn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelFahrbahn1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabelAutoSpieler1)
                 .addContainerGap())
         );
 
-        jPanelFahrbahn2.setBackground(new java.awt.Color(204, 0, 0));
+        jPanelFahrbahn2.setBackground(new java.awt.Color(0, 204, 0));
 
         jLabelAutoSpieler2.setForeground(new java.awt.Color(51, 153, 0));
         jLabelAutoSpieler2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelAutoSpieler2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bmw-mini-icon.png"))); // NOI18N
+        jLabelAutoSpieler2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/auto_spieler1.png"))); // NOI18N
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rennstrecke_spieler2.JPG"))); // NOI18N
 
         javax.swing.GroupLayout jPanelFahrbahn2Layout = new javax.swing.GroupLayout(jPanelFahrbahn2);
         jPanelFahrbahn2.setLayout(jPanelFahrbahn2Layout);
         jPanelFahrbahn2Layout.setHorizontalGroup(
             jPanelFahrbahn2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelFahrbahn2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jLabelAutoSpieler2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanelFahrbahn2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelFahrbahn2Layout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(jLabelAutoSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelFahrbahn2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelFahrbahn2Layout.setVerticalGroup(
             jPanelFahrbahn2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelFahrbahn2Layout.createSequentialGroup()
-                .addContainerGap(469, Short.MAX_VALUE)
-                .addComponent(jLabelAutoSpieler2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(21, 21, 21))
+            .addGroup(jPanelFahrbahn2Layout.createSequentialGroup()
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabelAutoSpieler2)
+                .addContainerGap())
         );
 
         jButtonBremsenSpieler1.setText("bremsen");
+        jButtonBremsenSpieler1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonBremsenSpieler1ActionPerformed(evt);
+            }
+        });
 
         jButtonBremsenSpieler2.setText("bremsen");
         jButtonBremsenSpieler2.addActionListener(new java.awt.event.ActionListener() {
@@ -102,6 +132,11 @@ public class GUI extends javax.swing.JFrame {
         });
 
         jButtonGasGebenSpieler1.setText("gasgeben");
+        jButtonGasGebenSpieler1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonGasGebenSpieler1ActionPerformed(evt);
+            }
+        });
 
         jButtonGasGebenSpieler2.setText("gasgeben");
         jButtonGasGebenSpieler2.addActionListener(new java.awt.event.ActionListener() {
@@ -111,6 +146,11 @@ public class GUI extends javax.swing.JFrame {
         });
 
         jButtonWeiterSpieler1.setText("weiter");
+        jButtonWeiterSpieler1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonWeiterSpieler1ActionPerformed(evt);
+            }
+        });
 
         jButtonWeiterSpieler2.setText("weiter");
         jButtonWeiterSpieler2.addActionListener(new java.awt.event.ActionListener() {
@@ -119,105 +159,246 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setText("Speed:");
+
+        jLabel2.setText("Tank:");
+
+        jLabel3.setText(":Tank");
+
+        jLabel4.setText(":Speed");
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mitte.JPG"))); // NOI18N
+        jLabel5.setText("jLabel5");
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mitte.JPG"))); // NOI18N
+        jLabel8.setText("jLabel5");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(62, 62, 62)
+                .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButtonBremsenSpieler1)
-                    .addComponent(jButtonGasGebenSpieler1)
-                    .addComponent(jButtonWeiterSpieler1))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jProgressBarSpeedSpieler1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jProgressBarTankSpieler1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jTextFieldNextStepSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jButtonGasGebenSpieler1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButtonWeiterSpieler1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButtonBremsenSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(7, 7, 7)))
                 .addGap(18, 18, 18)
                 .addComponent(jPanelFahrbahn1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addComponent(jPanelFahrbahn2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButtonBremsenSpieler2)
-                    .addComponent(jButtonGasGebenSpieler2)
-                    .addComponent(jProgressBarSpeedSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonWeiterSpieler2)
-                    .addComponent(jTextFieldNextStepSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(80, Short.MAX_VALUE))
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanelFahrbahn2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jProgressBarTankSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jProgressBarSpeedSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jButtonWeiterSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonGasGebenSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonBremsenSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldNextStepSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(57, 57, 57))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jProgressBarSpeedSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jProgressBarTankSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jTextFieldNextStepSpieler1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonWeiterSpieler1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonGasGebenSpieler1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonBremsenSpieler1))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jProgressBarSpeedSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jTextFieldNextStepSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButtonWeiterSpieler2)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButtonGasGebenSpieler2)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButtonBremsenSpieler2))
-                        .addComponent(jPanelFahrbahn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanelFahrbahn2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jLabel1))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jProgressBarTankSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jTextFieldNextStepSpieler2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButtonWeiterSpieler2)
+                        .addGap(4, 4, 4)
+                        .addComponent(jButtonGasGebenSpieler2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButtonBremsenSpieler2))
+                    .addComponent(jPanelFahrbahn1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanelFahrbahn2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(113, 113, 113))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonGasGebenSpieler2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGasGebenSpieler2ActionPerformed
-
+// Gasgeben Spieler 2
         this.nextStepSpieler2 = "gasgeben";
         this.jTextFieldNextStepSpieler2.setText(this.nextStepSpieler2);
+        
 
     }//GEN-LAST:event_jButtonGasGebenSpieler2ActionPerformed
 
     private void jButtonBremsenSpieler2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBremsenSpieler2ActionPerformed
-
+// Bremsen Spieler 2
         this.nextStepSpieler2 = "bremsen";
         this.jTextFieldNextStepSpieler2.setText(this.nextStepSpieler2);
 
     }//GEN-LAST:event_jButtonBremsenSpieler2ActionPerformed
 
     private void jButtonWeiterSpieler2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonWeiterSpieler2ActionPerformed
- 
-    int xCoord = this.jLabelAutoSpieler2.getLocation().x;
-    int yCoord = this.jLabelAutoSpieler2.getLocation().y;
-     
-      if (!this.nextStepSpieler2.equals("")) {
+ // Auslesen der Koordinataten wo das Auto gerade steht
+        this.xCoordSpieler2 = this.jLabelAutoSpieler2.getLocation().x;
+        this.yCoordSpieler2 = this.jLabelAutoSpieler2.getLocation().y;
+        this.readySpieler2 = true;
+        if (this.readySpieler1 == true) {
+            this.nextRound();
+        }
+    }//GEN-LAST:event_jButtonWeiterSpieler2ActionPerformed
+
+    private void jButtonWeiterSpieler1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonWeiterSpieler1ActionPerformed
+    // Auslesen der Koordinataten wo das Auto gerade steht 
+      this.xCoordSpieler1 = this.jLabelAutoSpieler1.getLocation().x;
+      this.yCoordSpieler1 = this.jLabelAutoSpieler1.getLocation().y;
+      this.readySpieler1 = true;
+      if (this.readySpieler2 == true) {
+          this.nextRound();
+      }
+    }//GEN-LAST:event_jButtonWeiterSpieler1ActionPerformed
+
+    private void jButtonGasGebenSpieler1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGasGebenSpieler1ActionPerformed
+        // Gasgeben Spieler 1
+        this.nextStepSpieler1 = "gasgeben";
+        this.jTextFieldNextStepSpieler1.setText(this.nextStepSpieler1);
+    }//GEN-LAST:event_jButtonGasGebenSpieler1ActionPerformed
+
+    private void jButtonBremsenSpieler1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBremsenSpieler1ActionPerformed
+        // Bremsen Spieler 1
+        this.nextStepSpieler1 = "bremsen";
+        this.jTextFieldNextStepSpieler1.setText(this.nextStepSpieler1);
+    }//GEN-LAST:event_jButtonBremsenSpieler1ActionPerformed
+    private void guiAktualisieren(){
+        this.jLabelAutoSpieler1.setLocation(this.xCoordSpieler1, this.yCoordSpieler1);
+        this.jProgressBarSpeedSpieler1.setValue(this.speedSpieler1);
+        this.jProgressBarSpeedSpieler1.setStringPainted(true);
+        this.jTextFieldNextStepSpieler1.setText(this.nextStepSpieler1);
+        this.jProgressBarTankSpieler1.setValue(this.tankSpieler1);
+        this.jProgressBarTankSpieler1.setStringPainted(true);
+        this.jLabelAutoSpieler2.setLocation(this.xCoordSpieler2, this.yCoordSpieler2);
+        this.jProgressBarSpeedSpieler2.setValue(this.speedSpieler2);
+        this.jProgressBarSpeedSpieler2.setStringPainted(true);
+        this.jTextFieldNextStepSpieler2.setText(this.nextStepSpieler2);
+        this.jProgressBarTankSpieler2.setValue(this.tankSpieler2);
+        this.jProgressBarTankSpieler2.setStringPainted(true);
+    }
+    
+    private void nextRound(){
+        //beide auf weiter geklickt?
+        // dann erst mal Spieler 1 naechste Position berechnen
+        if (!this.nextStepSpieler1.equals("")) {
+            if (this.nextStepSpieler1.equals("bremsen")) {
+                if (this.speedSpieler1 - 3 >= 0){
+                    this.speedSpieler1 = this.speedSpieler1 - 3;
+                    this.yCoordSpieler1 = this.yCoordSpieler1 - this.speedSpieler1;
+                    // beim bremsen kein Tankverbrauch, da Motobremse
+                } else {
+                    this.speedSpieler1 = 0;
+                }
+        // Geschwindigkeit wird addiert
+            } else {
+                this.speedSpieler1 = this.speedSpieler1 + 3;
+                this.tankSpieler1 = (int) (this.tankSpieler1 - this.speedSpieler1/this.tankFaktor);
+                this.yCoordSpieler1 = this.yCoordSpieler1 - this.speedSpieler1;
+            }
+        }
+        this.nextStepSpieler1 = "";
+        // Wenn Koordinate 0 erreicht Meldung das Gewonnen wurde
+        if (this.yCoordSpieler1<= 0) {
+            this.nextStepSpieler1 = "GEWONNEN!";
+           this.yCoordSpieler1 = 0;
+        }
+        // Wenn Tank 0 ist Meldung das Tank leer ist
+        if (tankSpieler1 <= 0){
+            this.nextStepSpieler1 = "Tank leer - schieben!";
+                    this.speedSpieler1 = 0;
+        }
+ // -------------------------------------------------------------------------
+        // Nun folgt Spieler 2
+        if (!this.nextStepSpieler2.equals("")) {
             if (this.nextStepSpieler2.equals("bremsen")) {
                 if (this.speedSpieler2 - 3 >= 0){
                     this.speedSpieler2 = this.speedSpieler2 - 3;
-                    yCoord = yCoord - this.speedSpieler2;
+                    this.yCoordSpieler2 = this.yCoordSpieler2 - this.speedSpieler2;
                 } else {
                     this.speedSpieler2 = 0;
                 }
-
+            // Geschwindigkeit wird addiert
             } else {
                 this.speedSpieler2 = this.speedSpieler2 + 3;
-                yCoord = yCoord - this.speedSpieler2;
+                // Gleichzeitig wird der Tank minimiert
+                this.tankSpieler2 = (int) (this.tankSpieler2 - this.speedSpieler2/this.tankFaktor);
+                this.yCoordSpieler2 = this.yCoordSpieler2 - this.speedSpieler2;
             }
         }
         this.nextStepSpieler2 = "";
-
-        if (yCoord <= 0) {
-            System.out.println("Spieler 2 Gewonnen!");
+        // Wenn Koordinate 0 erreicht Meldung das Gewonnen wurde
+        if (this.yCoordSpieler2 <= 0) {
             this.nextStepSpieler2 = "GEWONNEN!";
-            yCoord = 0;
+            this.yCoordSpieler2 = 0;
         }
-        this.jLabelAutoSpieler2.setLocation(xCoord, yCoord);
-        this.jProgressBarSpeedSpieler2.setValue(this.speedSpieler2);
-        this.jTextFieldNextStepSpieler2.setText(this.nextStepSpieler2);
+        // Wenn Tank 0 ist Meldung das Tank leer ist
+        if (tankSpieler2 <= 0){
+            this.nextStepSpieler2 = "Tank leer - schieben!";
+                    this.speedSpieler2 = 0;
+        }
+    // Setzen der Ausgabefelder im Spiel
 
-    }//GEN-LAST:event_jButtonWeiterSpieler2ActionPerformed
+       this.guiAktualisieren();
+       
+       this.readySpieler1 = false;
+       this.readySpieler2 = false;
 
+    }
+    
     /**
      * @param args the command line arguments
      */
@@ -255,9 +436,26 @@ public class GUI extends javax.swing.JFrame {
 
     //Eigene Variablen
     private String nextStepSpieler2 = "";
-    private int speedSpieler2 = 6;
+    private String nextStepSpieler1 = "";
+    private boolean readySpieler1 = false;
+    private boolean readySpieler2 = false;
+    
+    private int xCoordSpieler1 = 0;
+    private int yCoordSpieler1 = 0;
+    private int xCoordSpieler2 = 0;
+    private int yCoordSpieler2 = 0;
+    
+    private int speedSpieler2 = 50;
+    private int speedSpieler1 = 50;
     private Spielregeln spielregeln;
+    private int tankSpieler2 = 100;
+    private int tankSpieler1 = 100;
+    // Mit dieser Variable versucht den Abzug von Tank zu verbessern
+    double tankFaktor = 4.5;
 
+    
+    
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonBremsenSpieler1;
     private javax.swing.JButton jButtonBremsenSpieler2;
@@ -265,11 +463,23 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JButton jButtonGasGebenSpieler2;
     private javax.swing.JButton jButtonWeiterSpieler1;
     private javax.swing.JButton jButtonWeiterSpieler2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelAutoSpieler1;
     private javax.swing.JLabel jLabelAutoSpieler2;
     private javax.swing.JPanel jPanelFahrbahn1;
     private javax.swing.JPanel jPanelFahrbahn2;
+    private javax.swing.JProgressBar jProgressBarSpeedSpieler1;
     private javax.swing.JProgressBar jProgressBarSpeedSpieler2;
+    private javax.swing.JProgressBar jProgressBarTankSpieler1;
+    private javax.swing.JProgressBar jProgressBarTankSpieler2;
+    private javax.swing.JTextField jTextFieldNextStepSpieler1;
     private javax.swing.JTextField jTextFieldNextStepSpieler2;
     // End of variables declaration//GEN-END:variables
 }
