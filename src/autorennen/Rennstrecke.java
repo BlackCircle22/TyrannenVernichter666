@@ -2,32 +2,30 @@ package autorennen;
 
 public class Rennstrecke {
 
-    private double laenge;
+    private int laenge;
     private String nameR;
-    private Auto spur1;
-    private Auto spur2;
+    private int rundenZaehler;
+    
 
-    public Rennstrecke(double laenge, String nameR) {
+    public Rennstrecke(int laenge, String nameR) {
         this.laenge = laenge;
         this.nameR = nameR;
+        this.rundenZaehler = 0;
     }
-    public void setSpur1(Auto auto){
-        this.spur1 = auto;
+    public String getLaenge(){
+        return Integer.toString(this.laenge);
     }
-    public void setSpur2(Auto auto){
-        this.spur2 = auto;
+    public String getRunde(){
+        return Integer.toString(this.rundenZaehler);
     }
-    public double getLaenge(){
-        return this.laenge;
+    public int getRundeI(){
+        return this.rundenZaehler;
+    }
+    public void setRunde(int rundenZaehler){
+        this.rundenZaehler = rundenZaehler;
     }
     public String getNameR(){
         return this.nameR;
-    }
-    public Auto getSpur1(){
-        return this.spur1;
-    }
-    public Auto getSpur2(){
-        return this.spur2;
     }
 
 }
